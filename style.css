@@ -110,3 +110,29 @@
     left: 0;
     top: 0;
 }
+
+/* Add this to your style.css file */
+#experience, #education, #certifications {
+    padding: 60px 0;
+}
+
+.experienceCard, .educationCard, .certificationCard {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experienceCard:hover, .educationCard:hover, .certificationCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.experience-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.experience-list li {
+    margin-bottom: 10px;
+}
