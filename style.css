@@ -80,3 +80,33 @@
     border-width: 0 0 2px 0;
     border-color: #ccc;
 }
+
+/* Add this to your style.css file */
+#publications {
+    padding: 60px 0;
+}
+
+.publication-list h3 {
+    margin-top: 30px;
+    color: #007bff;
+}
+
+.publication-list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.publication-list ul li {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.publication-list ul li::before {
+    content: "•";
+    color: #007bff;
+    font-size: 1.2em;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
