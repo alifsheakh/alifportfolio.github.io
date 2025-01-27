@@ -136,3 +136,15 @@
 .experience-list li {
     margin-bottom: 10px;
 }
+
+/* Add this to your style.css file */
+.publication-list a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the text bold */
+}
+
+.publication-list a:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
